@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+/* css初始化 */
+  body,div,h1,h2,h3,h4,h5,h6,p,form,ul,li,dl,dt,dd,span,a,img,em,i,strong,b,input,select,textarea,table,tr,td{
+            margin:0px;
+            padding:0px;
+        }
+        body{
+            font-family:Tahoma,Helvetica,Arial,'宋体',sans-serif;
+    		background:#eeeeee;
+        }
+        html,body{
+            height:100%;
+        }
+        li{
+            list-style:none;
+        }
+        img{
+            border:0 none;
+            vertical-align:top;
+ 
+        }
+        em,i{
+            font-style:normal;
+        }
+        a{
+            text-decoration:none;
+        }
+        a:link,a:active,a:visited,a:hover{
+            color:#fff;
+            text-decoration:none;
+            opacity:1;
+        }
+        .clearfix{
+            *zoom:1;
+        }
+        .clearfix:after{
+            content:".";
+            visibility:hidden;
+            height:0;
+            display:block;
+            clear:both;
+        }
